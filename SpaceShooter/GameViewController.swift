@@ -29,6 +29,8 @@ class GameViewController: UIViewController {
             
             view.showsFPS = true
             view.showsNodeCount = true
+            
+            view.showsPhysics = true // shows the pixel cutout of the physics objects 
         }
     }
 
