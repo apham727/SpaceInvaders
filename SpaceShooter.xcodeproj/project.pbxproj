@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4927658024651DBE0051F3AF /* enemy-types.json in Resources */ = {isa = PBXBuildFile; fileRef = 4927657E24651DBD0051F3AF /* enemy-types.json */; };
+		4927658124651DBE0051F3AF /* waves.json in Resources */ = {isa = PBXBuildFile; fileRef = 4927657F24651DBD0051F3AF /* waves.json */; };
 		4987DF4F2464CB88007AAFF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4987DF4E2464CB88007AAFF8 /* AppDelegate.swift */; };
 		4987DF512464CB88007AAFF8 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4987DF502464CB88007AAFF8 /* GameScene.sks */; };
 		4987DF552464CB88007AAFF8 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4987DF542464CB88007AAFF8 /* GameScene.swift */; };
@@ -15,8 +17,6 @@
 		4987DF5C2464CB89007AAFF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4987DF5B2464CB89007AAFF8 /* Assets.xcassets */; };
 		4987DF5F2464CB89007AAFF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4987DF5D2464CB89007AAFF8 /* LaunchScreen.storyboard */; };
 		4987DF672464CCAC007AAFF8 /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4987DF662464CCAC007AAFF8 /* Starfield.sks */; };
-		4987DF6A2464D65F007AAFF8 /* enemy-types.json in Resources */ = {isa = PBXBuildFile; fileRef = 4987DF682464D65F007AAFF8 /* enemy-types.json */; };
-		4987DF6B2464D65F007AAFF8 /* waves.json in Resources */ = {isa = PBXBuildFile; fileRef = 4987DF692464D65F007AAFF8 /* waves.json */; };
 		4987DF6D2464D753007AAFF8 /* EnemyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4987DF6C2464D753007AAFF8 /* EnemyType.swift */; };
 		4987DF6F2464D78E007AAFF8 /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4987DF6E2464D78E007AAFF8 /* Wave.swift */; };
 		4987DF712464D7FD007AAFF8 /* Bundle-Decoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4987DF702464D7FD007AAFF8 /* Bundle-Decoding.swift */; };
@@ -26,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4927657E24651DBD0051F3AF /* enemy-types.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "enemy-types.json"; sourceTree = "<group>"; };
+		4927657F24651DBD0051F3AF /* waves.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = waves.json; sourceTree = "<group>"; };
 		4987DF4B2464CB88007AAFF8 /* SpaceShooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceShooter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4987DF4E2464CB88007AAFF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4987DF502464CB88007AAFF8 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -36,8 +38,6 @@
 		4987DF5E2464CB89007AAFF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4987DF602464CB89007AAFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4987DF662464CCAC007AAFF8 /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
-		4987DF682464D65F007AAFF8 /* enemy-types.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "enemy-types.json"; path = "../../../Downloads/zaptastic/enemy-types.json"; sourceTree = "<group>"; };
-		4987DF692464D65F007AAFF8 /* waves.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = waves.json; path = ../../../Downloads/zaptastic/waves.json; sourceTree = "<group>"; };
 		4987DF6C2464D753007AAFF8 /* EnemyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyType.swift; sourceTree = "<group>"; };
 		4987DF6E2464D78E007AAFF8 /* Wave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave.swift; sourceTree = "<group>"; };
 		4987DF702464D7FD007AAFF8 /* Bundle-Decoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decoding.swift"; sourceTree = "<group>"; };
@@ -60,7 +60,6 @@
 		4987DF422464CB88007AAFF8 = {
 			isa = PBXGroup;
 			children = (
-				4987DF7624651407007AAFF8 /* Explosion.sks */,
 				4987DF7724651407007AAFF8 /* Assets.xcassets */,
 				4987DF4D2464CB88007AAFF8 /* SpaceShooter */,
 				4987DF4C2464CB88007AAFF8 /* Products */,
@@ -78,8 +77,9 @@
 		4987DF4D2464CB88007AAFF8 /* SpaceShooter */ = {
 			isa = PBXGroup;
 			children = (
-				4987DF682464D65F007AAFF8 /* enemy-types.json */,
-				4987DF692464D65F007AAFF8 /* waves.json */,
+				4987DF7624651407007AAFF8 /* Explosion.sks */,
+				4927657E24651DBD0051F3AF /* enemy-types.json */,
+				4927657F24651DBD0051F3AF /* waves.json */,
 				4987DF6C2464D753007AAFF8 /* EnemyType.swift */,
 				4987DF6E2464D78E007AAFF8 /* Wave.swift */,
 				4987DF702464D7FD007AAFF8 /* Bundle-Decoding.swift */,
@@ -155,9 +155,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4987DF6A2464D65F007AAFF8 /* enemy-types.json in Resources */,
+				4927658024651DBE0051F3AF /* enemy-types.json in Resources */,
+				4927658124651DBE0051F3AF /* waves.json in Resources */,
 				4987DF5A2464CB88007AAFF8 /* Main.storyboard in Resources */,
-				4987DF6B2464D65F007AAFF8 /* waves.json in Resources */,
 				4987DF512464CB88007AAFF8 /* GameScene.sks in Resources */,
 				4987DF672464CCAC007AAFF8 /* Starfield.sks in Resources */,
 				4987DF7824651407007AAFF8 /* Explosion.sks in Resources */,
